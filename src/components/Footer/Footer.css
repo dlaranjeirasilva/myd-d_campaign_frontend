@@ -1,0 +1,28 @@
+.footer {
+  max-width: 1440px;
+  margin: 68px auto 60px;
+  padding: 0 20px;
+}
+
+.footer__copyright {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 980px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 581px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 282px;
+  }
+}

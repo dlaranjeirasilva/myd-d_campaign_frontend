@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.home__container {
+  max-width: 880px;
+}
+
+.home__title {
+  margin: 0 auto 30px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.home__description {
+  text-align: justify;
+}
+
+.home__splash {
+  margin: 30px auto 30px;
+  width: 400px;
+}
+
+@media screen and (max-width: 980px) {
+  .home__container {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__container {
+    max-width: 350px;
+  }
+
+  .home__splash {
+    width: 350px;
+  }
+}

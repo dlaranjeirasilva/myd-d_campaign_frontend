@@ -1,0 +1,49 @@
+.equipment-content__equipment-item {
+  width: 120px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.equipment-content__equipment-item-name {
+  width: 120px;
+  height: 100%;
+  text-wrap: pretty;
+  resize: none;
+  padding: 0;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  z-index: 1;
+}
+
+.equipment-content__equipment-item-image {
+  width: 120px;
+  position: absolute;
+  opacity: 0.3;
+  padding: auto;
+}
+
+.equipment-content__equipment-item-addon {
+  width: 110px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.equipment-content__equipment-item-addon-input {
+  width: inherit;
+  padding: 0;
+  outline: none;
+  border: 0;
+  background-color: transparent;    
+}
