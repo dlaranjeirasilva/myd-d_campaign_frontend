@@ -1,0 +1,193 @@
+.card {
+  position: relative;
+  padding: 10px 0;
+  width: 400px;
+  background-image: linear-gradient(to bottom right, #F58D2C, #BDD1D8);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__upper-section {
+  margin: 0 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__hit-points {
+  display: flex;
+  box-sizing: border-box;
+  width: 100px;
+  border: 2px solid #000000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: default;
+}
+
+.card__hit-points-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #000000;
+  box-sizing: border-box;
+  width: 100px;
+  height: 25px;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.card__hit-points-value {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+.card__title {
+  cursor: default;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__attribute {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__stats {
+  width: 380px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.card__alignment {
+  padding-left: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.card__likes {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.card__info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.card__image {
+  object-fit: cover;
+  margin: 0 25px;
+  border-radius: 50%;
+  width: 350px;
+  cursor: pointer;
+}
+
+.card__garbage-can {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: calc(330px - (15px + 20px));
+  visibility: visible;
+}
+
+.card__counter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  visibility: visible;
+}
+
+.card__counter-title {
+  cursor: default;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.card__counter-controls {
+  display: flex;
+  align-items: center;
+}
+
+.card__counter-button {
+  width: 30px;
+}
+
+.card__counter-button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.card__counter-button:active {
+  transform: scale(0.8);
+}
+
+.card__counter-display {
+  padding: 0 10px;
+  cursor: default;
+}
+
+.card__garbage-can:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.card__garbage-can_hidden {
+  visibility: hidden;
+}
+
+.card__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 21px;
+  height: 35px;
+}
+
+.card__button {
+  height: 19;
+  width: 21px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card__button:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
+}
+
+.card__button:active {
+  transform: scale(0.8);
+}

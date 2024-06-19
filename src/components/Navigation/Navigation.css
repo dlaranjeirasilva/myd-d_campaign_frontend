@@ -1,0 +1,36 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.navigation__item {
+  display: flex;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.navigation__item:hover {
+  color: #F5542C;
+}
+
+.navigation__item:active {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,35 @@
+.pagination {
+  max-width: 350px;
+  margin: 10px 0;
+  position: sticky;
+  bottom: 0;
+}
+
+.pagination__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.pagination__button {
+  cursor: pointer;
+  background-color: #D3B79C;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px;
+  border: 0;
+}
+
+.pagination__button_active {
+  background-color: #BDD1D8;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 0;
+  padding: 15px;
+  border: 0;
+}
+
+.pagination__button:hover {
+  opacity: 0.8;
+}
